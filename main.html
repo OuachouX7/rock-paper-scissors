@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="containAll">
+        <div class="container">
+            <h1>Paper - Scissors - Rock</h1>
+            
+            <div class="choices">
+                <button onclick="game('paper')">PAPER</button>
+                <button onclick="game('scissors')">SCISSORS</button>
+                <button onclick="game('rock')">ROCK</button>
+            </div>
+        
+            <div id="playerDisplay">PLAYER : </div> <br>
+            <div id="opponentDisplay">OPPONENT : </div> <br>
+            <div id="resultDisplay"></div>
+            <br>
+            <div>
+                <span id="playerscore">PLAYER SCORE : 0</span><br>
+                <span id="opponentscore">OPPONENT SCORE : 0</span>
+            </div>
+            <br>
+            <div>
+                <button id="reset">RESET</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

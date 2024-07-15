@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.containAll{
+    background-image: url(desktop-wallpaper-ܓ122195-video-games-mountains-firewatch-lake-android-iphone-background-png-jpg-2021.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 3.5rem;
+    font-family :'Times New Roman', Times, serif;
+}
+.choices{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.choices button,#reset{
+    min-width: 160px;
+    margin: 0 10px;
+    padding: 15px 0;
+    border-radius: 250px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.choices button:hover,#reset:hover{
+    background-color: rgb(182, 5, 182);
+}
+.container{
+    padding: 120px 0;
+}
+#opponentscore
+,#playerscore
+,#opponentDisplay
+,#playerDisplay{
+    font-size: 32px;
+}
+input[type=button]{
+    background-color: transparent;
+    border: 2px solid transparent;
+}
